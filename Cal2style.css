@@ -1,0 +1,60 @@
+.container{
+     position: center;
+     width: 30%;
+     border: 2px solid black;
+     margin: 100px auto;
+     padding: 20px;
+     border-radius: 12px;
+     background: brown;
+   }
+
+   .frame {
+     border: 2px solid black;
+     padding: 20px;
+     background: lightGray;
+   }
+   
+  
+   .h2 {
+     border: 2px solid black; 
+     padding: 0px;
+     margin-top: 10px;
+     font-size: 25px;
+   }
+
+   .header {
+     text-align: left;
+     border-bottom: black;
+     margin-bottom: 20px;
+   
+   }
+
+
+   input[type=button] {
+     background: lightGray;
+     width: 20%;
+     font-size: 20px;
+     margin-left: 10px;
+     margin-top: 20px;
+   }
+   input[type=button]:active {
+     background-color: red;
+     box-shadow: 5px 5px #666;
+     /* transform: translateY(4px); */
+     border-bottom: 100px;
+   }
+
+   input[type=button]:hover {
+     background-color: green;
+     color: white;
+   }
+   
+   input[type = text] {
+     position: center;
+     display: block;
+     width: 90%;
+     margin: auto;
+     font-size: 20px;
+     padding: 10px; 
+     box-shadow: 4px 0px 12px black inset;                                                                                                                                                                                                                                                                                                                                               
+   }
